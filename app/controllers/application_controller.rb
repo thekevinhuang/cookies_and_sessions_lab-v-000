@@ -12,7 +12,6 @@ class ApplicationController < ActionController::Base
   end
 
   def index
-    binding.pry
     render '/products/index'
   end
 end

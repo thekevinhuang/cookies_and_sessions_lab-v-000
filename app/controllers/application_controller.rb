@@ -13,6 +13,6 @@ class ApplicationController < ActionController::Base
 
   def index
     cart
-    render 'products/index'
+    render '/products/index'
   end
 end

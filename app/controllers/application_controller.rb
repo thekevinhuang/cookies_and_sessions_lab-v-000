@@ -7,4 +7,7 @@ class ApplicationController < ActionController::Base
     cart = session[:cart] ||= []
   end
 
+  def homepage
+
+  end
 end

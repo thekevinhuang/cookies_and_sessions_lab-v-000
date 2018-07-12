@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def homepage
-
+    
   end
 end

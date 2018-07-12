@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   end
 
   def index
-    cart
+    binding.pry
     render '/products/index'
   end
 end

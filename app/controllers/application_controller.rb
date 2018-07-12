@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   end
 
   def index
-    cart
+    cart << params[:product]
     render '/products/index'
   end
 end
